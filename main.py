@@ -61,7 +61,7 @@ def main():
     hora()
 
 
-    schedule.every().sunday.at("00:00").do(reservar_clase)
+    schedule.every().sunday.at("02:43").do(reservar_clase)
     schedule.every().monday.at("09:30").do(reservar_clase)
     schedule.every().tuesday.at("09:30").do(reservar_clase)
     schedule.every().wednesday.at("09:30").do(reservar_clase)
